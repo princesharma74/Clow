@@ -102,7 +102,7 @@ export function generateEmailTemplate({
             <div>
               <img src="${companyInfo.logo_url}" width="100px" alt="">
             </div>
-            <div>${companyInfo.name}</div>
+            <div>${companyInfo.tagline}</div>
           </h1>
           <h3>Thank You for Reaching Out</h3>
           <p>We&apos;ve Received Your Submission</p>
