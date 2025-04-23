@@ -1,0 +1,66 @@
+{
+    "title": "MVP & Rapid Prototyping",
+    "slug": "mvp-prototyping",
+    "description": "Launch market-ready MVPs in 3–4 weeks with Clow’s no-code and low-code expertise.",
+    "overview": [
+      "Clow specializes in building minimum viable products (MVPs) to validate your concept quickly and affordably. We use no-code tools like Bubble and FlutterFlow, low-code backends like Pocketbase, and custom code for complex features.",
+      "At $25/hour, we deliver scalable prototypes in 3–4 weeks, leveraging AI-powered development and open-source tools to ensure you own your code and avoid vendor lock-in."
+    ],
+    "tools": [
+      {
+        "name": "Bubble",
+        "description": "No-code platform for building web applications with a visual interface.",
+        "icon": "/service/mvp-prototyping/bubble.png"
+      },
+      {
+        "name": "Pocketbase",
+        "description": "Open-source backend for building real-time applications.",
+        "icon": "/service/mvp-prototyping/pocketbase.png"
+      },
+      {
+        "name": "Prisma",
+        "description": "Next-generation ORM for Node.js and TypeScript, simplifying database access.",
+        "icon": "/service/mvp-prototyping/prisma.png"
+      },
+      {
+        "name": "Zapier",
+        "description": "Automation tool to connect different apps and services.",
+        "icon": "/service/mvp-prototyping/zapier.png"
+      },
+      {
+        "name": "Framer",
+        "description": "Design tool for creating interactive prototypes and animations.",
+        "icon": "/service/mvp-prototyping/framer.png"
+      }
+    ],
+    "process": [
+      {
+        "id": "step-1",
+        "number": "1",
+        "title": "Discovery & Planning",
+        "description": "We define your MVP’s scope and select the best tools in week 1."
+      },
+      {
+        "id": "step-2",
+        "number": "2",
+        "title": "Design & Prototyping",
+        "description": "We build a functional prototype with your UI/UX vision in weeks 2–3."
+      },
+      {
+        "id": "step-3",
+        "number": "3",
+        "title": "Development & Testing",
+        "description": "We add custom code, integrate APIs, and test in week 3."
+      },
+      {
+        "id": "step-4",
+        "number": "4",
+        "title": "Launch & Handover",
+        "description": "We deploy on your cloud and hand over full ownership in week 4."
+      }
+    ],
+    "cta": {
+      "text": "Launch MVP",
+      "url": "/contact"
+    }
+  }

@@ -1,0 +1,66 @@
+{
+    "title": "Database & CMS Solutions",
+    "slug": "database-cms",
+    "description": "Transform your data into scalable, self-hosted databases and CMS with Clow’s low-code expertise.",
+    "overview": [
+      "Clow converts spreadsheets into relational databases and CMS using tools like Airtable, Pocketbase, and ERPNext. Our solutions are enterprise-grade, self-hosted, and free from vendor lock-in.",
+      "Starting at $20/hour for select tools, we deliver dashboards in 48 hours and full ERP systems at 90% less cost than traditional providers. Custom Python/TypeScript integrations ensure flexibility."
+    ],
+    "tools": [
+      {
+        "name": "Airtable",
+        "description": "Flexible database and spreadsheet tool for organizing data.",
+        "icon": "/service/database-cms/airtable.png"
+      },
+      {
+        "name": "Pocketbase",
+        "description": "Open-source backend for building real-time applications.",
+        "icon": "/service/database-cms/pocketbase.svg"
+      },
+      {
+        "name": "ERPNext",
+        "description": "Comprehensive open-source ERP system for managing business processes.",
+        "icon": "/service/database-cms/erpnext.png"
+      },
+      {
+        "name": "Prisma",
+        "description": "Next-generation ORM for Node.js and TypeScript, simplifying database access.",
+        "icon": "/service/database-cms/prisma.png"
+      },
+      {
+        "name": "Notion",
+        "description": "All-in-one workspace for notes, tasks, and databases.",
+        "icon": "/service/database-cms/notion.png"
+      }
+    ],
+    "process": [
+      {
+        "id": "step-1",
+        "number": "1",
+        "title": "Data Assessment",
+        "description": "We analyze your data and select the best low-code platform."
+      },
+      {
+        "id": "step-2",
+        "number": "2",
+        "title": "Schema Design",
+        "description": "We design a relational database or CMS structure."
+      },
+      {
+        "id": "step-3",
+        "number": "3",
+        "title": "Implementation",
+        "description": "We build dashboards or ERP systems with custom integrations."
+      },
+      {
+        "id": "step-4",
+        "number": "4",
+        "title": "Deployment",
+        "description": "We deploy on your cloud with full ownership."
+      }
+    ],
+    "cta": {
+      "text": "Organize Data",
+      "url": "/contact"
+    }
+  }

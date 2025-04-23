@@ -1,0 +1,66 @@
+{
+    "title": "Web & Mobile App Development",
+    "slug": "web-mobile-apps",
+    "description": "Build scalable, pixel-perfect web and mobile apps in under 4 weeks with Clow’s no-code and low-code expertise.",
+    "overview": [
+      "Clow delivers high-quality web and mobile apps using no-code platforms like Bubble, FlutterFlow, and Plasmic, combined with custom code for advanced features. Our solutions are tailored for startups, SaaS teams, and businesses seeking fast, scalable applications.",
+      "Starting at $25/hour, we provide full code ownership and self-hosted options on your AWS or Google Cloud account, avoiding vendor lock-in. Our apps are SEO-optimized, responsive, and built for growth."
+    ],
+    "tools": [
+      {
+        "name": "Bubble",
+        "description": "No-code platform for building responsive web applications.",
+        "icon": "/service/web-mobile-apps/bubble.png"
+      },
+      {
+        "name": "FlutterFlow",
+        "description": "No-code platform for building mobile applications with Flutter.",
+        "icon": "/service/web-mobile-apps/flutterflow.png"
+      },
+      {
+        "name": "Plasmic",
+        "description": "Visual builder for creating responsive web applications.",
+        "icon": "/service/web-mobile-apps/plasmic.svg"
+      },
+      {
+        "name": "Framer",
+        "description": "Design and prototype responsive web applications with Framer.",
+        "icon": "/service/web-mobile-apps/framer.png"
+      },
+      {
+        "name": "Next.js",
+        "description": "React framework for building server-rendered applications.",
+        "icon": "/service/web-mobile-apps/nextjs.png"
+      }
+    ],
+    "process": [
+      {
+        "id": "step-1",
+        "number": "1",
+        "title": "Requirement Analysis",
+        "description": "We gather your needs and select the best no-code/low-code tools for your app."
+      },
+      {
+        "id": "step-2",
+        "number": "2",
+        "title": "UI/UX Design",
+        "description": "We create responsive, user-friendly designs using Bubble or FlutterFlow."
+      },
+      {
+        "id": "step-3",
+        "number": "3",
+        "title": "Development",
+        "description": "We build the app, integrating custom Dart/JS for complex features."
+      },
+      {
+        "id": "step-4",
+        "number": "4",
+        "title": "Deployment",
+        "description": "We deploy on your cloud and ensure SEO optimization and scalability."
+      }
+    ],
+    "cta": {
+      "text": "Start Building",
+      "url": "/contact"
+    }
+  }

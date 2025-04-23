@@ -1,0 +1,56 @@
+{
+    "title": "Automation & Workflow Optimization",
+    "slug": "automation",
+    "description": "Streamline your business processes with Clow’s no-code and open-source automation solutions.",
+    "overview": [
+      "Clow automates repetitive tasks and optimizes workflows using no-code tools like Zapier and open-source platforms like n8n. We integrate over 5,000 apps, adding custom Python/JS scripts for complex logic.",
+      "At $25/hour, our solutions save you $800+/year by leveraging self-hosted, open-source tools, ensuring cost efficiency and flexibility. Deploy on your cloud for full control."
+    ],
+    "tools": [
+      {
+        "name": "Zapier",
+        "description": "Automate tasks between apps with no-code workflows.",
+        "icon": "/service/automation/zapier.png"
+      },
+      {
+        "name": "n8n",
+        "description": "Open-source workflow automation tool for complex integrations.",
+        "icon": "/service/automation/n8n.svg"
+      },
+      {
+        "name": "Airtable",
+        "description": "Flexible database and spreadsheet tool for organizing data.",
+        "icon": "/service/automation/airtable.png"
+      }
+    ],
+    "process": [
+      {
+        "id": "step-1",
+        "number": "1",
+        "title": "Process Mapping",
+        "description": "We identify tasks to automate and select the best tools."
+      },
+      {
+        "id": "step-2",
+        "number": "2",
+        "title": "Workflow Design",
+        "description": "We configure no-code automations with Zapier or n8n."
+      },
+      {
+        "id": "step-3",
+        "number": "3",
+        "title": "Custom Integration",
+        "description": "We add custom scripts for advanced logic and integrations."
+      },
+      {
+        "id": "step-4",
+        "number": "4",
+        "title": "Deployment",
+        "description": "We deploy workflows on your cloud and test for reliability."
+      }
+    ],
+    "cta": {
+      "text": "Automate Now",
+      "url": "/contact"
+    }
+  }

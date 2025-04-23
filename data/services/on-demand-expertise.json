@@ -1,0 +1,71 @@
+{
+    "title": "On-Demand Software Expertise",
+    "slug": "on-demand-expertise",
+    "description": "Access Clow’s no-code and low-code expertise for short-term, flexible software projects.",
+    "overview": [
+      "Clow provides on-demand support for no-code and low-code platforms like Bubble, Next.js, n8n, and Supabase. Ideal for startups and businesses needing quick, specialized expertise without long-term commitments.",
+      "For a one-time $50 onboarding fee and $25/hour, we deliver tailored solutions, from app tweaks to workflow integrations, with full code ownership and self-hosted options."
+    ],
+    "tools": [
+      {
+        "name": "Bubble",
+        "description": "No-code platform for building web applications with a visual interface.",
+        "icon": "/service/on-demand-expertise/bubble.png"
+      },
+      {
+        "name": "Next.js",
+        "description": "React framework for building server-rendered applications.",
+        "icon": "/service/on-demand-expertise/nextjs.png"
+      },
+      {
+        "name": "n8n",
+        "description": "Open-source workflow automation tool for connecting apps and services.",
+        "icon": "/service/on-demand-expertise/n8n.svg"
+      },
+      {
+        "name": "Supabase",
+        "description": "Open-source Firebase alternative for building real-time applications.",
+        "icon": "/service/on-demand-expertise/supabase.png"
+      },
+      {
+        "name": "Framer",
+        "description": "Design tool for creating interactive prototypes and animations.",
+        "icon": "/service/on-demand-expertise/framer.png"
+      },
+      {
+        "name": "Zapier",
+        "description": "Automation tool to connect different apps and services.",
+        "icon": "/service/on-demand-expertise/zapier.png"
+      }
+    ],
+    "process": [
+      {
+        "id": "step-1",
+        "number": "1",
+        "title": "Project Briefing",
+        "description": "We assess your needs and define the scope during onboarding."
+      },
+      {
+        "id": "step-2",
+        "number": "2",
+        "title": "Solution Design",
+        "description": "We propose a no-code/low-code solution tailored to your project."
+      },
+      {
+        "id": "step-3",
+        "number": "3",
+        "title": "Implementation",
+        "description": "We execute the solution, integrating custom code if needed."
+      },
+      {
+        "id": "step-4",
+        "number": "4",
+        "title": "Delivery",
+        "description": "We deliver the solution and ensure you have full control."
+      }
+    ],
+    "cta": {
+      "text": "Hire Expertise",
+      "url": "/contact"
+    }
+  }
