@@ -15,7 +15,7 @@ export interface ProcessProps {
 
 const ServicePage: React.FC<{ service: ServiceProps }> = ({ service }) => {
   return (
-    <div className="bg-white">
+    <div className="bg-white mx-2">
       {/* Hero Section */}
       <div className="bg-gradient-to-br from-blue-50 to-indigo-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
@@ -23,7 +23,7 @@ const ServicePage: React.FC<{ service: ServiceProps }> = ({ service }) => {
             <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
               {service.title}
             </h1>
-            <p className="mt-6 text-xl text-gray-500">{service.description}</p>
+            <p className="mt-6 text-lg text-gray-500">{service.description}</p>
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@ const ServicePage: React.FC<{ service: ServiceProps }> = ({ service }) => {
           <div className="mt-6 lg:mt-0 lg:col-span-2">
             <div className="space-y-6">
               {service.overview.map((paragraph, index) => (
-                <p key={index} className="text-lg text-gray-600">
+                <p key={index} className="text-md text-gray-600">
                   {paragraph}
                 </p>
               ))}
@@ -48,23 +48,23 @@ const ServicePage: React.FC<{ service: ServiceProps }> = ({ service }) => {
 
       {/* Technology Tools Section */}
       <div className="bg-gray-50">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <h2 className="text-3xl font-bold text-gray-900">
-            Technologies We Use
-          </h2>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 flex flex-col gap-8 md:gap-4">
           <div>
-            <div className="flex gap-4">
+            <h2 className="text-3xl font-bold text-gray-900">
+              Technologies We Use
+            </h2>
+          </div>
+          <div>
+            <div className="flex flex-wrap gap-4">
               {service.tools.map((tool, index) => (
-                <div key={index} className="flex justify-center">
-                  <div className="h-30 w-30 relative">
-                    <Image
-                      src={`${tool.icon}`}
-                      alt={tool.icon}
-                      fill
-                      className="object-contain"
-                    />
-                  </div>
-                </div>
+                    <div key={index} className='flex items-center justify-center'>
+                      <Image
+                        src={tool.icon}
+                        alt={tool.name}
+                        width={100}
+                        height={100}
+                      />
+                    </div>
               ))}
             </div>
           </div>

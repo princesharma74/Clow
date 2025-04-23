@@ -137,10 +137,10 @@ function Connect() {
                         </span>
                       </h3>
                     </div>
-                    <p className="mb-4 text-center text-slate-600 dark:text-slate-400">
+                    <p className="mb-4 text-slate-600 dark:text-slate-400">
                       From branding to web design, I&apos;m here to elevate your visual identity!
                     </p>
-                    <div className="flex flex-wrap justify-center gap-2">
+                    <div className="flex flex-wrap gap-2">
                       <Button
                           data-cal-namespace="30min"
                           data-cal-link="clowtech/30min"

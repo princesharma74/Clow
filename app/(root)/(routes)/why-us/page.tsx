@@ -11,7 +11,7 @@ const WhyUsPage: React.FC = () => {
           <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl">
             Why Choose Clow?
           </h1>
-          <p className="mt-6 max-w-3xl mx-auto text-xl text-gray-500">
+          <p className="mt-6 max-w-3xl mx-auto text-lg text-gray-500">
             At Clow, we empower startups, SaaS teams, and innovators to bring their ideas to life quickly, affordably, and with full control. With over four years of experience in no-code, low-code, and open-source solutions, we deliver scalable, tailored products that meet your unique needs.
           </p>
         </div>
@@ -23,9 +23,9 @@ const WhyUsPage: React.FC = () => {
             <div className="flex flex-col justify-center">
               <div className="flex items-center mb-4">
                 <Award className="h-8 w-8 text-blue-600 mr-3" />
-                <h2 className="text-3xl font-bold text-gray-900">Expertise and Experience</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Expertise and Experience</h2>
               </div>
-              <p className="text-lg text-gray-600 mb-6">
+              <p className="text-md text-gray-600 mb-6">
                 Our team specializes in no-code, low-code, and full-code platforms, with mastery in tools like Bubble, FlutterFlow, Next.js, and more. We&apos;ve spent over four years honing our skills across 10+ platforms, ensuring we select the best technology for your project. Whether you need a rapid prototype or a robust custom solution, we&apos;ve got the expertise to make it happen.
               </p>
               <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-500">
@@ -83,9 +83,9 @@ const WhyUsPage: React.FC = () => {
             <div className="order-1 md:order-2 flex flex-col justify-center">
               <div className="flex items-center mb-4">
                 <Clock className="h-8 w-8 text-green-600 mr-3" />
-                <h2 className="text-3xl font-bold text-gray-900">Speed and Efficiency</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Speed and Efficiency</h2>
               </div>
-              <p className="text-lg text-gray-600 mb-6">
+              <p className="text-md text-gray-600 mb-6">
                 Time is critical for growing businesses. We deliver market-ready Minimum Viable Products (MVPs) in just 3–4 weeks—up to 3x faster than traditional development. At $25/hour, our low-code approach saves you time and money while maintaining enterprise-grade quality. Imagine saving up to $50k per project compared to traditional agencies, without compromising on results.
               </p>
               <div className="bg-green-50 p-4 rounded-lg border-l-4 border-green-500">
@@ -101,9 +101,9 @@ const WhyUsPage: React.FC = () => {
             <div className="flex flex-col justify-center">
               <div className="flex items-center mb-4">
                 <Zap className="h-8 w-8 text-purple-600 mr-3" />
-                <h2 className="text-3xl font-bold text-gray-900">Flexibility and Scalability</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Flexibility and Scalability</h2>
               </div>
-              <p className="text-lg text-gray-600 mb-6">
+              <p className="text-md text-gray-600 mb-6">
                 Our hybrid solutions combine the speed of no-code with the power of custom code. Start with a quick prototype to test your idea, then scale seamlessly with tailored features as your business grows. With Clow, you&apos;re never locked into a single platform—your app evolves with you.
               </p>
               <div className="bg-purple-50 p-4 rounded-lg border-l-4 border-purple-500">
@@ -195,9 +195,9 @@ const WhyUsPage: React.FC = () => {
             <div className="order-1 md:order-2 flex flex-col justify-center">
               <div className="flex items-center mb-4">
                 <Lock className="h-8 w-8 text-amber-600 mr-3" />
-                <h2 className="text-3xl font-bold text-gray-900">Ownership and Control</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Ownership and Control</h2>
               </div>
-              <p className="text-lg text-gray-600 mb-6">
+              <p className="text-md text-gray-600 mb-6">
                 We believe you should have full control over your product. Our open-source and self-hosted options let you deploy on your AWS or Google Cloud account, ensuring you own your code and data. Say goodbye to vendor lock-in and hello to cost savings, data privacy, and long-term flexibility.
               </p>
               <div className="bg-amber-50 p-4 rounded-lg border-l-4 border-amber-500">
@@ -213,9 +213,9 @@ const WhyUsPage: React.FC = () => {
             <div className="flex flex-col justify-center">
               <div className="flex items-center mb-4">
                 <Heart className="h-8 w-8 text-red-600 mr-3" />
-                <h2 className="text-3xl font-bold text-gray-900">Client-Centric Approach</h2>
+                <h2 className="text-2xl font-bold text-gray-900">Client-Centric Approach</h2>
               </div>
-              <p className="text-lg text-gray-600 mb-6">
+              <p className="text-md text-gray-600 mb-6">
                 Your success is our mission. We provide tailored solutions, transparent pricing, and end-to-end support—from ideation to deployment. We listen to your needs, align our workflows with your goals, and deliver on time and on budget. With Clow, you&apos;re not just a client; you&apos;re a partner.
               </p>
               <div className="bg-red-50 p-4 rounded-lg border-l-4 border-red-500">
@@ -248,8 +248,8 @@ const WhyUsPage: React.FC = () => {
 
         {/* CTA Section */}
         <div className="mt-24 text-center">
-          <h2 className="text-3xl font-extrabold text-gray-900">Ready to Get Started?</h2>
-          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-2xl font-extrabold text-gray-900">Ready to Get Started?</h2>
+          <p className="mt-4 text-md text-gray-600 max-w-2xl mx-auto">
             Contact us today to learn how Clow can help you achieve your goals efficiently and affordably. Let&apos;s turn your ideas into reality—faster, smarter, and on your terms.
           </p>
           <div className="mt-8">

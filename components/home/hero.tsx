@@ -77,7 +77,7 @@ const Hero: React.FC<HeroProps> = ({ data }) => {
         <div className="flex flex-col items-center gap-6 text-center max-w-3xl mx-auto relative">
           <div className="absolute inset-0 bg-gradient-to-b from-background via-background/80 to-background/70 blur-sm rounded-xl -z-10"></div>
           <Badge variant="outline" className="px-4 py-1.5 text-sm font-medium animate-fade-in">{badge}</Badge>
-          <h1 className="text-5xl font-bold tracking-tight md:text-5xl lg:text-6xl animate-slide-up px-2">
+          <h1 className="text-4xl sm:text-5xl font-bold tracking-tight md:text-5xl lg:text-6xl animate-slide-up px-2">
             {heading}
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl animate-fade-in-delayed px-4">

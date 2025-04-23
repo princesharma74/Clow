@@ -1,3 +1,4 @@
+"use client"
 import { Menu } from "lucide-react";
 
 import {
@@ -25,6 +26,7 @@ import {
 import Link from "next/link";
 import Image from "next/image";
 import { MenuItem, NavbarProps } from "@/types";
+import { useState } from "react";
 
 
 const Navbar : React.FC<NavbarProps> = ({
@@ -32,6 +34,13 @@ const Navbar : React.FC<NavbarProps> = ({
     menu,
     auth
 }) => {
+  const [isOpen, setIsOpen] = useState(false);
+  
+  // Function to close the sheet
+  const closeSheet = () => {
+    setIsOpen(false);
+  };
+  
   return (
     <section className="py-4 mx-auto">
       <div className="container mx-auto px-4">
@@ -75,7 +84,7 @@ const Navbar : React.FC<NavbarProps> = ({
                 height={100}
                 alt={logo.alt} />
             </Link>
-            <Sheet>
+            <Sheet open={isOpen} onOpenChange={setIsOpen}>
               <SheetTrigger asChild>
                 <Button variant="outline" size="icon">
                   <Menu className="size-4" />
@@ -84,7 +93,7 @@ const Navbar : React.FC<NavbarProps> = ({
               <SheetContent className="overflow-y-auto">
                 <SheetHeader>
                   <SheetTitle>
-                    <Link href={logo.url} className="flex items-center gap-2">
+                    <Link href={logo.url} onClick={closeSheet} className="flex items-center gap-2">
                       <Image 
                         src={logo.src} 
                         width={40}
@@ -99,15 +108,15 @@ const Navbar : React.FC<NavbarProps> = ({
                     collapsible
                     className="flex w-full flex-col gap-4"
                   >
-                    {menu.map((item) => renderMobileMenuItem(item))}
+                    {menu.map((item) => renderMobileMenuItem(item, closeSheet))}
                   </Accordion>
 
                   <div className="flex flex-col gap-3">
                     <Button asChild variant="outline">
-                      <Link href={auth.book.url}>{auth.book.title}</Link>
+                      <Link href={auth.book.url} onClick={closeSheet}>{auth.book.title}</Link>
                     </Button>
                     <Button asChild>
-                      <Link href={auth.quote.url}>{auth.quote.title}</Link>
+                      <Link href={auth.quote.url} onClick={closeSheet}>{auth.quote.title}</Link>
                     </Button>
                   </div>
                 </div>
@@ -128,7 +137,7 @@ const renderMenuItem = (item: MenuItem) => {
         <NavigationMenuContent className="bg-popover text-popover-foreground">
           {item.items.map((subItem) => (
             <NavigationMenuLink asChild key={subItem.title} className="w-80">
-              <SubMenuLink item={subItem} />
+              <SubMenuLink item={subItem} onClick={() => {}} />
             </NavigationMenuLink>
           ))}
         </NavigationMenuContent>
@@ -148,7 +157,7 @@ const renderMenuItem = (item: MenuItem) => {
   );
 };
 
-const renderMobileMenuItem = (item: MenuItem) => {
+const renderMobileMenuItem = (item: MenuItem, closeSheet: () => void) => {
   if (item.items) {
     return (
       <AccordionItem key={item.title} value={item.title} className="border-b-0">
@@ -157,7 +166,7 @@ const renderMobileMenuItem = (item: MenuItem) => {
         </AccordionTrigger>
         <AccordionContent className="mt-2">
           {item.items.map((subItem) => (
-            <SubMenuLink key={subItem.title} item={subItem} />
+            <SubMenuLink key={subItem.title} item={subItem} onClick={closeSheet} />
           ))}
         </AccordionContent>
       </AccordionItem>
@@ -165,17 +174,23 @@ const renderMobileMenuItem = (item: MenuItem) => {
   }
 
   return (
-    <Link key={item.title} href={item.url} className="text-md font-semibold">
+    <Link 
+      key={item.title} 
+      href={item.url} 
+      onClick={closeSheet}
+      className="text-md font-semibold"
+    >
       {item.title}
     </Link>
   );
 };
 
-const SubMenuLink = ({ item }: { item: MenuItem }) => {
+const SubMenuLink = ({ item, onClick }: { item: MenuItem; onClick: () => void }) => {
   return (
     <Link
       className="flex flex-row gap-4 rounded-md p-3 leading-none no-underline transition-colors outline-none select-none hover:bg-muted hover:text-accent-foreground"
       href={item.url}
+      onClick={onClick}
     >
       <div className="text-foreground">{item.icon}</div>
       <div>
