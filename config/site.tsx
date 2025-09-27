@@ -64,7 +64,7 @@ export const navItems: NavbarProps = {
     { title: "Contact", url: "/contact" },
   ],
   auth: {
-    book: { title: "Book a call", url: "https://cal.com/clowtech/30min" },
+    book: { title: "Book a call", url: "https://cal.com/clow-nms1gw/30min" },
     quote: { title: "Get a quote", url: "/contact" },
   },
 };
