@@ -130,23 +130,11 @@ const ContactUsPage: React.FC = () => {
               </div>
               <div className="flex items-start">
                 <div className="bg-blue-600 text-white rounded-full p-2">
-                  <Phone className="h-5 w-5" />
-                </div>
-                <div className="ml-4">
-                  <h3 className="text-lg font-medium">Phone</h3>
-                  <p className="text-blue-600">{contactDetails.phone}</p>
-                  <p className="text-sm text-gray-500">
-                    Monday-Friday, 9am-6pm EST
-                  </p>
-                </div>
-              </div>
-              <div className="flex items-start">
-                <div className="bg-blue-600 text-white rounded-full p-2">
                   <MapPin className="h-5 w-5" />
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-medium">Office</h3>
-                  <p className="text-gray-600">Bangalore, India, 560038</p>
+                  <p className="text-gray-600">Bangalore, India</p>
                 </div>
               </div>
             </div>

@@ -240,9 +240,8 @@ export const testimonials = [
 
 
 export const contactDetails = {
-  email: "clow2899@gmail.com",
+  email: "contactclowtech@gmail.com",
   address: "Bangalore, India",
-  phone: "+917678228684",
   social: {
     twitter: "https://twitter.com/clowtech",
     linkedin: "https://www.linkedin.com/in/clowtech",
